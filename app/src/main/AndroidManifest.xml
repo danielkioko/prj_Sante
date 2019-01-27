@@ -18,7 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecordsActivity"></activity>
+        <activity android:name=".RecordsActivity" />
+
+        <service
+            android:name=".StepsTrackingService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
